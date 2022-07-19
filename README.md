@@ -43,3 +43,6 @@ com.appliedrec.verid.proto.Face protobufFace = com.appliedrec.verid.proto.Face.p
 ProtobufTypeConverter converter = new ProtobufTypeConverter();
 // Convert the protobuf face to Ver-ID face
 Face veridFace = converter.convertFace(protobufFace);
+```
+
+Please refer to the [documentation](https://appliedrecognition.github.io/Ver-ID-Serialization-Android/) for additional types.

@@ -1,0 +1,3 @@
+[submodule "lib/src/main/proto"]
+	path = lib/src/main/proto
+	url = https://jakubdolejs@github.com/AppliedRecognition/Ver-ID-Protobuf.git

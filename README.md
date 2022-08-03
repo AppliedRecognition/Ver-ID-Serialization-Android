@@ -7,12 +7,12 @@ Serialize common Ver-ID types using protocol buffers
 1. Add the following repository to your project's repositories:
   
   ```groovy
-  maven { url 'https://jitpack.io' }
+  maven { url 'https://dev.ver-id.com/artifactory/gradle-release' }
   ```
 2. Add the following dependency:
   
   ```groovy
-  implementation 'com.github.AppliedRecognition:Ver-ID-Serialization-Android:1.0.0'
+  implementation 'com.appliedrec.verid:serialization:1.0.0'
   ```
   
 ## Usage

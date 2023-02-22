@@ -1,15 +1,13 @@
+![Maven Central](https://img.shields.io/maven-central/v/com.appliedrec.verid/serialization)
+
 # Ver-ID-Serialization-Android
 
 Serialize common Ver-ID types using protocol buffers
 
 ## Installation
 
-1. Add the following repository to your project's repositories:
-  
-  ```groovy
-  maven { url 'https://dev.ver-id.com/artifactory/gradle-release' }
-  ```
-2. Add the following dependency:
+1. Ensure `mavenCentral()` is in your project's repositories.
+2. Add the following entry in your module's dependencies:
   
   ```groovy
   implementation 'com.appliedrec.verid:serialization:1.0.0'
